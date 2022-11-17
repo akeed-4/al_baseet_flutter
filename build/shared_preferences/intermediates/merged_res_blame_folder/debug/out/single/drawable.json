@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

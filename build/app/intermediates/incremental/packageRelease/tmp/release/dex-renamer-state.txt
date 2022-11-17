@@ -1,0 +1,4 @@
+#Tue Nov 01 16:08:01 AST 2022
+base.0=D\:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

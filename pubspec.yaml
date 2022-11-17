@@ -1,0 +1,122 @@
+name: al_baseet
+description: App for al-baseet compney sales customer.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0
+  flutter_spinkit: ^5.0.0
+  percent_indicator: ^3.0.1
+  fluttertoast: ^8.0.8
+  provider: ^6.0.0
+  shared_preferences: ^2.0.7
+  dio: ^4.0.0
+  shimmer: ^2.0.0
+  connectivity: ^3.0.6
+  syncfusion_flutter_pdf: ^19.3.46-beta
+  path_provider: ^1.0.1
+  open_file: ^3.2.1
+  pdf: ^3.6.0
+  qr_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/svg/
+    - assets/png/
+    - assets/png/home/invoice.png
+    - assets/png/home/customer.png
+    - assets/png/home/warehouse.png
+    - assets/png/home/backup.png
+    - assets/png/home/products.png
+    - assets/png/home/reports.png
+    - assets/svg/add.svg
+    - assets/png/bag.png
+    - assets/png/history.png
+    - assets/png/money.png
+    - assets/png/min_invoice.png
+    - assets/png/customer_background.png
+    - assets/png/intro_lang_icon.png
+    - assets/png/no_data.png
+    - assets/png/footer.png
+    - assets/coranica.ttf
+
+
+
+
+
+  fonts:
+    - family: arabFont
+      fonts:
+        - asset: assets/fonts/GE-SS-Two-Bold.otf
+          weight: 700
+    - family: arabFontLight
+      fonts:
+        - asset: assets/fonts/GE_SS_Two_Light.otf
+          weight: 500
+
+    # Cairo
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+    - family: Cairo-Bold
+      fonts:
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
+    # Droid-Sans
+    - family: Droid Sans Arabic
+      fonts:
+        - asset: assets/fonts/Droid-Sans.ttf
+          weight: 400
+    - family: Droid Sans Arabic Bold
+      fonts:
+        - asset: assets/fonts/Droid-Sans.ttf
+          weight: 700
+    # Tajawal
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+          weight: 400
+    - family: Droid Sans Arabic Bold
+      fonts:
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+    # HacenTunisia
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/HacenTunisia.ttf
+          weight: 100
+    # Droid Arabic Kufi Bold
+    - family: Droid Arabic Kufi
+      fonts:
+        - asset: assets/fonts/Droid-Arabic-Kufi-Bold.ttf
+          weight: 700
+    - family: Droid Arabic Kufi Bold
+      fonts:
+        - asset: assets/fonts/Droid-Arabic-Kufi.ttf
+          weight: 400
+flutter_intl:
+  enabled: true

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\path_provider\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\path_provider\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\path_provider\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\path_provider\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

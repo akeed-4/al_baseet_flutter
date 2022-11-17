@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\connectivity\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\connectivity\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\connectivity\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\connectivity\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\connectivity\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\connectivity\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    }
+]
