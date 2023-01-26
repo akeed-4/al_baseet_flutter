@@ -49,7 +49,7 @@ class _EditInvoiceAmountState extends State<EditInvoiceAmount> {
                     child: TextFormField(
                       keyboardType: TextInputType.number,
                       inputFormatters: <TextInputFormatter>[
-                        FilteringTextInputFormatter.allow(RegExp(r'[0-9.]')),
+                        FilteringTextInputFormatter.allow(RegExp(r'[0-15.]')),
                       ],
                       decoration: InputDecoration(
                         hintText: "ادخل المبلغ الجديد ",

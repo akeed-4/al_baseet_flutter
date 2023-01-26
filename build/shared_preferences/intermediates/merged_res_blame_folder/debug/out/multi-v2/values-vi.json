@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\build\\shared_preferences\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\shared_preferences\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

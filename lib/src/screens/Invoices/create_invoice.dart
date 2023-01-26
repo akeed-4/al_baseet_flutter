@@ -112,7 +112,6 @@ class _CreateInvoiceState extends State<CreateInvoice> {
           actions: [
             Text("#${creatingInvoice?.invoiceNo ?? ''}"),
           ],
-          // actions: [Text("#${widget.invoice?.invoiceNo ?? ''}")],
         ),
         body: ListView(
           padding: appPadding,
@@ -407,16 +406,7 @@ class _CreateInvoiceState extends State<CreateInvoice> {
           fontWeight: FontWeight.w700,
         ),
 
-        // Text(
-        //   '\$ ${currencyFormat(InvoiceProductModel.getTotalAmount(_provider.selectedProducts))}',
-        //   style: TextStyle(
-        //     fontFamily: 'Droid Arabic Kufi',
-        //     fontSize: 20,
-        //     color: const Color(0xff353333),
-        //     letterSpacing: -0.26666668701171875,
-        //     fontWeight: FontWeight.w700,
-        //   ),
-        // )
+       
       ],
     );
   }

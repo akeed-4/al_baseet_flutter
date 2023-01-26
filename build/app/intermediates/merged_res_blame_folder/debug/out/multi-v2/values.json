@@ -1,29 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\596a997b6629d3c6ec8f74ffd9ded17d\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,7,8,9,10,11,19,23,34,51",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,234,294,346,391,451,869,1066,1790,2904",
-                        "endLines": "6,7,8,9,10,18,22,33,50,58",
-                        "endColumns": "11,59,51,44,59,24,24,24,24,24",
-                        "endOffsets": "229,289,341,386,446,864,1061,1785,2899,3292"
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "150,55",
+                        "endColumns": "68,94",
+                        "endOffsets": "214,145"
                     },
                     "to": {
-                        "startLines": "4,9,10,11,83,136,144,385,396,413",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "176,355,415,467,4977,8220,8638,22891,23615,24729",
-                        "endLines": "8,9,10,11,83,143,147,395,412,420",
-                        "endColumns": "11,59,51,44,59,24,24,24,24,24",
-                        "endOffsets": "350,410,462,507,5032,8633,8830,23610,24724,25117"
+                        "startLines": "104,105",
+                        "startColumns": "4,4",
+                        "startOffsets": "6096,6164",
+                        "endColumns": "67,94",
+                        "endOffsets": "6159,6254"
                     }
                 },
                 {
-                    "source": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -42,75 +40,7 @@
                     }
                 },
                 {
-                    "source": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "150,55",
-                        "endColumns": "68,94",
-                        "endOffsets": "214,145"
-                    },
-                    "to": {
-                        "startLines": "104,105",
-                        "startColumns": "4,4",
-                        "startOffsets": "6096,6164",
-                        "endColumns": "67,94",
-                        "endOffsets": "6159,6254"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\5ea94e9b973e74c6e50336396b7c4d2a\\media-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
-                    },
-                    "to": {
-                        "startLines": "18,20,21,44,45,46,47,102,120,122,123,128,130",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "901,1032,1103,2642,2695,2748,2801,5966,7114,7290,7412,7674,7869",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "985,1098,1171,2690,2743,2796,2849,6021,7175,7407,7468,7735,7931"
-                    }
-                },
-                {
-                    "source": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\android\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
-                    },
-                    "to": {
-                        "startLines": "15",
-                        "startColumns": "4",
-                        "startOffsets": "712",
-                        "endColumns": "56",
-                        "endOffsets": "764"
-                    }
-                },
-                {
-                    "source": "D:\\mobile\\src\\al_baseetApp_main\\al_baseet\\android\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "97,55",
-                        "endColumns": "39,41",
-                        "endOffsets": "132,92"
-                    },
-                    "to": {
-                        "startLines": "14,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "672,990",
-                        "endColumns": "39,41",
-                        "endOffsets": "707,1027"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,104,111,159,191,228",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -129,7 +59,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4f52ca1ea052ca301229b72bc44cfc4c\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\596a997b6629d3c6ec8f74ffd9ded17d\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,10,11,19,23,34,51",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,234,294,346,391,451,869,1066,1790,2904",
+                        "endLines": "6,7,8,9,10,18,22,33,50,58",
+                        "endColumns": "11,59,51,44,59,24,24,24,24,24",
+                        "endOffsets": "229,289,341,386,446,864,1061,1785,2899,3292"
+                    },
+                    "to": {
+                        "startLines": "4,9,10,11,83,136,144,385,396,413",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "176,355,415,467,4977,8220,8638,22891,23615,24729",
+                        "endLines": "8,9,10,11,83,143,147,395,412,420",
+                        "endColumns": "11,59,51,44,59,24,24,24,24,24",
+                        "endOffsets": "350,410,462,507,5032,8633,8830,23610,24724,25117"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\4f52ca1ea052ca301229b72bc44cfc4c\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
                         "startColumns": "4,4,4,4",
@@ -145,6 +94,57 @@
                         "endLines": "2,135,171,260",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "111,8215,10173,15384"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\android\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "97,55",
+                        "endColumns": "39,41",
+                        "endOffsets": "132,92"
+                    },
+                    "to": {
+                        "startLines": "14,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "672,990",
+                        "endColumns": "39,41",
+                        "endOffsets": "707,1027"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\5ea94e9b973e74c6e50336396b7c4d2a\\media-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
+                    },
+                    "to": {
+                        "startLines": "18,20,21,44,45,46,47,102,120,122,123,128,130",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "901,1032,1103,2642,2695,2748,2801,5966,7114,7290,7412,7674,7869",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "985,1098,1171,2690,2743,2796,2849,6021,7175,7407,7468,7735,7931"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\projectTest\\al_baseet\\android\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "712",
+                        "endColumns": "56",
+                        "endOffsets": "764"
                     }
                 }
             ]

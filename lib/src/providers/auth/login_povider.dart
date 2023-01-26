@@ -58,7 +58,7 @@ class AuthProvider extends BaseProvider<UserModel> {
       return;
     }
     setEvent(EventSource(loading: true));
-    // await Future.delayed(Duration(seconds: 2));
+
     ResponseModel response = await _repo.doLogin(
       username: userModel.userName.trim(),
       password: userModel.password.trim(),

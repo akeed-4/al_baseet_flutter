@@ -11,7 +11,8 @@ import 'package:al_baseet/src/screens/shared_widgets/app_nav.dart';
 import 'package:al_baseet/src/screens/shared_widgets/customScffold.dart';
 import 'package:al_baseet/src/screens/shared_widgets/custom_list_tile.dart';
 import 'package:al_baseet/src/screens/shared_widgets/custom_round_image.dart';
-import 'file:///D:/mobile/src/al_baseetApp_main/al_baseet/lib/src/screens/warehouse/products/product_details.dart';
+import 'package:al_baseet/src/screens/warehouse/products/product_details.dart';
+
 import 'package:al_baseet/src/values/constans.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

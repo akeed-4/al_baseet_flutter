@@ -16,8 +16,10 @@ import 'package:al_baseet/src/screens/shared_widgets/customScffold.dart';
 import 'package:al_baseet/src/screens/shared_widgets/custom_list_tile.dart';
 import 'package:al_baseet/src/screens/shared_widgets/custom_round_image.dart';
 import 'package:al_baseet/src/screens/shared_widgets/title_text_info.dart';
+import 'package:al_baseet/src/screens/warehouse/products/product_details.dart';
+import 'package:al_baseet/src/values/global_context.dart';
 import '../../models/invoice_type.dart';
-import 'file:///D:/mobile/src/al_baseetApp_main/al_baseet/lib/src/screens/warehouse/products/product_details.dart';
+
 import 'package:al_baseet/src/values/constans.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -44,7 +46,9 @@ class _InvoiceDetailsState extends State<InvoiceDetails> {
     print("----------------------------");
 
     final _provider = context.watch<InvoicesProvider>();
-    // final _provider02 = context.watch<WarehouseProvider>();
+    final provider2 = context.watch<WarehouseProvider>();
+
+   List<InvoiceProductModel> data= provider2.selectedProducts;
     return CustomScaffold(
       ignoring: _provider.updateLoading ||
           _provider.deleteLoading | _provider.approveLoading,
@@ -147,7 +151,13 @@ class _InvoiceDetailsState extends State<InvoiceDetails> {
                   text: widget.invoice.invoice_name.localeName),
               TitleTextInfo(
                   title: S.of(context).customer,
-                  text: (widget.invoice.type.key == InvoiceType.cash.key || widget.invoice.type.key == InvoiceType.returnCash.key) && widget.invoice.customer_name != null && widget.invoice.customer_name != '' ? widget.invoice.customer_name :  widget.invoice.customer.name.localeName),
+                  text: (widget.invoice.type.key == InvoiceType.cash.key ||
+                              widget.invoice.type.key ==
+                                  InvoiceType.returnCash.key) &&
+                          widget.invoice.customer_name != null &&
+                          widget.invoice.customer_name != ''
+                      ? widget.invoice.customer_name
+                      : widget.invoice.customer.name.localeName),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -253,19 +263,19 @@ class _InvoiceDetailsState extends State<InvoiceDetails> {
             : Container(
                 margin: EdgeInsets.only(bottom: 20),
                 child: AppBtn(
-                  text: S.of(context).print,
-                  backgroundColor: Colors.blueGrey,
-                  isLoading: _provider.printLoading,
-                  onPress: () => _print()
-                  // showPrintingDesignDialog(
-                  //   title: S.of(context).print_design_title,
-                  //   subTitle: S.of(context).print_design_sub_title,
-                  //   onBTC: () =>
-                  //       _provider.printInvoice(invoice: widget.invoice),
-                  //   onBTB: () =>
-                  //       _provider.printInvoice(invoice: widget.invoice, isSimpleTaxInvoice : false)
-                  // )
-                ),
+                    text: S.of(context).print,
+                    backgroundColor: Colors.blueGrey,
+                    isLoading: _provider.printLoading,
+                    onPress: () => _print()
+                    // showPrintingDesignDialog(
+                    //   title: S.of(context).print_design_title,
+                    //   subTitle: S.of(context).print_design_sub_title,
+                    //   onBTC: () =>
+                    //       _provider.printInvoice(invoice: widget.invoice),
+                    //   onBTB: () =>
+                    //       _provider.printInvoice(invoice: widget.invoice, isSimpleTaxInvoice : false)
+                    // )
+                    ),
               ),
         widget.invoice.approvalState
             ? SizedBox()
@@ -300,7 +310,8 @@ class _InvoiceDetailsState extends State<InvoiceDetails> {
               title: Text(S.of(context).print_design_small),
             ),
             ListTile(
-              onTap: () => _provider.printInvoice(invoice: widget.invoice, isSimpleTaxInvoice : false),
+              onTap: () => _provider.printInvoice(
+                  invoice: widget.invoice, isSimpleTaxInvoice: false),
               // leading: Icon(Icons.copy),
               title: Text(S.of(context).print_design_large),
             ),
@@ -389,10 +400,10 @@ class _InvoiceDetailsState extends State<InvoiceDetails> {
                 ),
                 trail: // Adobe XD layer: '$282' (text)
                     CurrencyWidget(
-                  amount: _products[index].price,
+                  amount:
+                      '${currencyFormat(InvoiceProductModel.getTotalAmount(_products))}',
+                  fontSize: 20,
                   fontWeight: FontWeight.w700,
-                  amountColor: Color(0xff003d86),
-                  fontSize: 19,
                 ),
               ),
             ),

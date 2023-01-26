@@ -12,43 +12,43 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:3:5-66
-14-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:3:22-64
+14-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:3:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:connectivity] D:\mobile\src\al_baseetApp_main\al_baseet\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-15-->[:connectivity] D:\mobile\src\al_baseetApp_main\al_baseet\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+15-->[:connectivity] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:connectivity] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-16-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
-16-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
+16-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
+16-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
-17-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-77
+17-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+17-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-77
 18
 19    <application
-19-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:4:4-42:19
+19-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:4:4-42:19
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:7:9-43
+22-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:7:9-43
 23        android:label="البسيط"
-23-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:5:9-31
+23-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:5:9-31
 24        android:usesCleartextTraffic="true" >
-24-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:6:8-43
+24-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:6:8-43
 25        <activity
-25-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:8:9-36:20
+25-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:8:9-36:20
 26            android:name="com.al_baseet.mobile.MainActivity"
-26-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:9:13-41
+26-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:9:13-41
 27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-27-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:12:13-163
+27-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:12:13-163
 28            android:hardwareAccelerated="true"
-28-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:13:13-47
+28-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:13:13-47
 29            android:launchMode="singleTop"
-29-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:10:13-43
+29-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:10:13-43
 30            android:theme="@style/LaunchTheme"
-30-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:11:13-47
+30-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:11:13-47
 31            android:windowSoftInputMode="adjustResize" >
-31-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:14:13-55
+31-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:14:13-55
 32
 33            <!--
 34                 Specifies an Android theme to apply to this Activity as soon as
@@ -57,11 +57,11 @@
 37                 to determine the Window background behind the Flutter UI.
 38            -->
 39            <meta-data
-39-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:19:13-22:17
+39-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:19:13-22:17
 40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:20:15-70
+40-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:20:15-70
 41                android:resource="@style/NormalTheme" />
-41-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:21:15-52
+41-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:21:15-52
 42            <!--
 43                 Displays an Android View that continues showing the launch screen
 44                 Drawable until Flutter paints its first frame, then this splash
@@ -70,21 +70,21 @@
 47                 Flutter's first frame.
 48            -->
 49            <meta-data
-49-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:28:13-31:17
+49-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:28:13-31:17
 50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-50-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:29:15-79
+50-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:29:15-79
 51                android:resource="@drawable/launch_background" />
-51-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:30:15-61
+51-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:30:15-61
 52
 53            <intent-filter>
-53-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:32:13-35:29
+53-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:32:13-35:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:33:17-68
-54-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:33:25-66
+54-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:33:17-68
+54-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:33:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:34:17-76
-56-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:34:27-74
+56-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:34:17-76
+56-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:34:27-74
 57            </intent-filter>
 58        </activity>
 59        <!--
@@ -92,42 +92,42 @@
 61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 62        -->
 63        <meta-data
-63-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:39:9-41:33
+63-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:39:9-41:33
 64            android:name="flutterEmbedding"
-64-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:40:13-44
+64-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:40:13-44
 65            android:value="2" />
-65-->D:\mobile\src\al_baseetApp_main\al_baseet\android\app\src\main\AndroidManifest.xml:41:13-30
+65-->C:\Users\Administrator\Desktop\projectTest\al_baseet\android\app\src\main\AndroidManifest.xml:41:13-30
 66
 67        <provider
-67-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+67-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
 68            android:name="com.crazecoder.openfile.FileProvider"
-68-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+68-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
 69            android:authorities="com.al_baseet.mobile.fileProvider.com.crazecoder.openfile"
-69-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+69-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
 70            android:exported="false"
-70-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+70-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
 71            android:grantUriPermissions="true" >
-71-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+71-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
 72            <meta-data
-72-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:53
+72-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:53
 73                android:name="android.support.FILE_PROVIDER_PATHS"
-73-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+73-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
 74                android:resource="@xml/filepaths" />
-74-->[:open_file] D:\mobile\src\al_baseetApp_main\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-50
+74-->[:open_file] C:\Users\Administrator\Desktop\projectTest\al_baseet\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-50
 75        </provider>
 76
 77        <uses-library
-77-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 78            android:name="androidx.window.extensions"
-78-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 79            android:required="false" />
-79-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 80        <uses-library
-80-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 81            android:name="androidx.window.sidecar"
-81-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 82            android:required="false" />
-82-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 83    </application>
 84
 85</manifest>

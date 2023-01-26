@@ -42,7 +42,7 @@ class _ReceiptsState extends State<Receipts> {
             child: AppBtn(
               text: S.of(context).create_receipt,
               height: 40,
-              onPress: () => appNavPush(context, page: CreateReceiptStep1()),
+              onPress: () => appNavPush(context, page: CreateReceiptStep1(customer: null,)),
             ),
           ),
         ],

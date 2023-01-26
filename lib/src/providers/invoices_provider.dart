@@ -3,7 +3,7 @@ import 'dart:developer';
 // import 'dart:io';
 
 import 'package:al_baseet/generated/l10n.dart';
-// import 'package:al_baseet/src/models/company_model.dart';
+
 import 'package:al_baseet/src/models/event_source.dart';
 import 'package:al_baseet/src/models/invoice_model.dart';
 import 'package:al_baseet/src/models/response_model.dart';
@@ -14,22 +14,14 @@ import 'package:al_baseet/src/providers/pdf/request_products/request_products_pd
 import 'package:al_baseet/src/providers/pdf/simple_pdf.dart';
 import 'package:al_baseet/src/providers/pdf/tax_pdf.dart';
 import 'package:al_baseet/src/screens/shared_widgets/showToast.dart';
-// import 'package:al_baseet/src/services/fakeData/fake_data.dart';
 
 import 'package:al_baseet/src/services/networks/invoice_repo.dart';
 import 'package:al_baseet/src/services/serials_no.dart';
-// import 'package:al_baseet/src/utils/storage/storage_helper.dart';
-// import 'package:al_baseet/src/utils/storage/storage_keys.dart';
+
 import 'package:al_baseet/src/values/global_context.dart';
 import 'package:flutter/material.dart';
 // import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-// import 'package:syncfusion_flutter_pdf/pdf.dart';
-// import 'package:intl/intl.dart';
-// import 'package:open_file/open_file.dart';
-
-// import 'common/language_provider.dart';
-// import 'pdf/details_pdf.dart';
 
 class InvoicesProvider extends BaseProvider<InvoiceModel> {
   InvoiceRepo repo = InvoiceRepo();
@@ -41,15 +33,15 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
   InvoicesProvider() {
     setEvent(EventSource(loading: true, data: []));
   }
-  Future getInvoices({bool isRefresh = false, String invoiceType = "" }) async {
+  Future getInvoices({bool isRefresh = false, String invoiceType = ""}) async {
     setEvent(EventSource(loading: true, refresh: isRefresh, data: event.data));
     // await Future.delayed(Duration(seconds: 2));
     // setEvent(EventSource(
     //     loading: false,
     //     data: InvoiceModel.toListOfModel(FakeData.invoices['data'].toList())));
-    ResponseModel response =
-        await repo.getInvoices(callBack: () => getInvoices(invoiceType: invoiceType),
-            invoiceType: invoiceType);
+    ResponseModel response = await repo.getInvoices(
+        callBack: () => getInvoices(invoiceType: invoiceType),
+        invoiceType: invoiceType);
     if (response.status) {
       setEvent(EventSource(
           loading: false, data: InvoiceModel.toListOfModel(response.data)));
@@ -83,10 +75,9 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
     if (response.status && response.errorCode == 200) {
       await Serials.saveLastSerial(type: invoice.type.key);
       CustomToast.showToastInfo(response.message);
-      print("**************************************+++---+++");
+
       print(response.data);
 
-      print("**************************************+++---+++");
       event.data.insert(0, InvoiceModel.fromJson(response.data));
       notifyListeners();
       Navigator.pop(navigatorKey.currentContext);
@@ -179,7 +170,8 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
     if (response.status && response.errorCode == 200) {
       int index = event.data.indexWhere((element) => element.id == invoice.id);
 
-      event.data[index].invoiceNo = InvoiceModel.fromJson(response.data).invoiceNo;
+      event.data[index].invoiceNo =
+          InvoiceModel.fromJson(response.data).invoiceNo;
       // Navigator.pop(navigatorKey.currentContext);
       event.data[index].approvalState = true;
       CustomToast.showToastInfo(response.message);
@@ -195,7 +187,9 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
     print("muller ${invoice.qrData}");
 
     // CreateEnglishPdf pdf = CreateEnglishPdf(invoice: invoice);
-    isSimpleTaxInvoice ? printSimpleInvoice(invoice: invoice) : printTaxInvoice(invoice: invoice);
+    isSimpleTaxInvoice
+        ? printSimpleInvoice(invoice: invoice)
+        : printTaxInvoice(invoice: invoice);
 
     // try {
     //   await pdfAR.createPDF();
@@ -207,8 +201,8 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
     printLoading = false;
     notifyListeners();
   }
-  Future printRequestProducts(
-      {@required InvoiceModel invoice}) async {
+
+  Future printRequestProducts({@required InvoiceModel invoice}) async {
     printLoading = true;
     notifyListeners();
     // UserModel user = navigatorKey.currentContext.read<AuthProvider>().userModel;
@@ -217,7 +211,8 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
 
     // CreateEnglishPdf pdf = CreateEnglishPdf(invoice: invoice);
     UserModel user = navigatorKey.currentContext.read<AuthProvider>().userModel;
-    CreateRequestProductsPdf pdfAR = CreateRequestProductsPdf(invoice: invoice, user: user);
+    CreateRequestProductsPdf pdfAR =
+        CreateRequestProductsPdf(invoice: invoice, user: user);
 
     try {
       await pdfAR.createPDF();
@@ -236,22 +231,20 @@ class InvoicesProvider extends BaseProvider<InvoiceModel> {
     printLoading = false;
     notifyListeners();
   }
-void printSimpleInvoice(
-    {@required InvoiceModel invoice}) async
-{
-  UserModel user = navigatorKey.currentContext.read<AuthProvider>().userModel;
-  CreateSimplePdf pdfAR = CreateSimplePdf(invoice: invoice, user: user);
 
-try {
-    await pdfAR.createPDF();
-  } catch (e) {
-    CustomToast.showToast("حدثت مشكلة حاول لاحقا");
-    print(e);
+  void printSimpleInvoice({@required InvoiceModel invoice}) async {
+    UserModel user = navigatorKey.currentContext.read<AuthProvider>().userModel;
+    CreateSimplePdf pdfAR = CreateSimplePdf(invoice: invoice, user: user);
+
+    try {
+      await pdfAR.createPDF();
+    } catch (e) {
+      CustomToast.showToast("حدثت مشكلة حاول لاحقا");
+      print(e);
+    }
   }
-}
-  void printTaxInvoice(
-      {@required InvoiceModel invoice}) async
-  {
+
+  void printTaxInvoice({@required InvoiceModel invoice}) async {
     UserModel user = navigatorKey.currentContext.read<AuthProvider>().userModel;
     CreateTaxPdf pdfAR = CreateTaxPdf(invoice: invoice, user: user);
 
@@ -262,6 +255,7 @@ try {
       print(e);
     }
   }
+
   void editInvoiceAmount(
       {@required InvoiceModel invoice, @required double newAmount}) {
     // print();

@@ -28,7 +28,7 @@ class InvoiceRepo {
       "customer_name": invoice.customer_name,
       "customer_tax_id": invoice.customer_tax_id,
       "invoice_date": DateTime.now().toUtc().toString(),
-      // "invoice_date": DateTime.now().toUtc(),
+   
       "products": invoice.products
           .map(
             (e) => {

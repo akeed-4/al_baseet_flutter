@@ -62,8 +62,7 @@ class InvoiceModel {
             key: json["invoice_type"] ?? InvoiceType.defaultInvoiceValue),
         date: DateTime.parse(json["invoice_date"] ?? DateTime.now().toString())
             .toLocal(),
-        // print();
-        // totalAmount: 550,
+        
         totalAmountBeforTax: json["amount_before_tax"] ?? 00,
         totalAmount: json["total_amount"] ?? 00,
         paidAmount: json["paid_amount"] ?? 00,
